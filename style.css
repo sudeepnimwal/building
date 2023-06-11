@@ -1,0 +1,96 @@
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 20PX 0PX;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.menulist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.right{
+    width:80%;
+;
+   
+}
+.futu{
+    width: 50%;
+    font-weight: bold;
+    
+}
+.living{
+    font-weight: 100;
+}
+.text{
+    width:55%;
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+}
+.IMG{
+    width:45%; 
+} 
+.btn {width: 131px;
+height: 40px;
+font-size: small;
+font-weight:bolder;
+background-color: gray;
+color: white;
+border-radius: 2px;
+border: none;
+}
+.bottom{
+    font-size: 20px;   
+}
+.footer-section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d5d5d5;
+}
+.footer-box{
+    display: flex;
+}
+.pic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 180px;
+    width: 60%;
+    margin: 0 auto;
+}
+.imgtxt {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    /* height: 1px; */
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}
+.header.text-dec {
+    padding: 0px;
+}
+.txtfoot a{color: black; text-decoration: none;}
+
+
+
+
